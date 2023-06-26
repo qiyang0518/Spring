@@ -1,0 +1,5 @@
+# 项目排除路径
+/SpringCourse03/target/
+/SpringCourse04/target/
+/SpringCourse05/target/
+/SpringDemo/target/

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="MyWebProject:war">
+    <output-path>$PROJECT_DIR$/SpringCourse02/MyWebProject/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>MyWebProject</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="MyWebProject.war">
+      <element id="artifact" artifact-name="MyWebProject:war exploded" />
+    </root>
+  </artifact>
+</component>

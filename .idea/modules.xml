@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SpringCourse02/MyWebProject/MyWebProject.iml" filepath="$PROJECT_DIR$/SpringCourse02/MyWebProject/MyWebProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Spring.iml" filepath="$PROJECT_DIR$/.idea/Spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCourse/SpringCourse.iml" filepath="$PROJECT_DIR$/SpringCourse/SpringCourse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCourse02/SpringCourse02.iml" filepath="$PROJECT_DIR$/SpringCourse02/SpringCourse02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCourse03/SpringCourse03.iml" filepath="$PROJECT_DIR$/SpringCourse03/SpringCourse03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCourse04/SpringCourse04.iml" filepath="$PROJECT_DIR$/SpringCourse04/SpringCourse04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCourse05/SpringCourse05.iml" filepath="$PROJECT_DIR$/SpringCourse05/SpringCourse05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringDemo/SpringDemo.iml" filepath="$PROJECT_DIR$/SpringDemo/SpringDemo.iml" />
+    </modules>
+  </component>
+</project>

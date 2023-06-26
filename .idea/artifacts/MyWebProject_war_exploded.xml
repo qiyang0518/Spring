@@ -1,0 +1,97 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="MyWebProject:war exploded">
+    <output-path>$PROJECT_DIR$/SpringCourse02/MyWebProject/target/MyWebProject</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>MyWebProject</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="MyWebProject" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.apache.camel:camel-core:4.0.0-M3" />
+          <element id="library" level="project" name="Maven: org.apache.camel:camel-core-engine:4.0.0-M3" />
+          <element id="library" level="project" name="Maven: org.apache.camel:camel-api:4.0.0-M3" />
+          <element id="library" level="project" name="Maven: org.apache.camel:camel-base-engine:4.0.0-M3" />
+          <element id="library" level="project" name="Maven: org.apache.camel:camel-core-reifier:4.0.0-M3" />
+          <element id="library" level="project" name="Maven: org.apache.camel:camel-core-processor:4.0.0-M3" />
+          <element id="library" level="project" name="Maven: org.apache.camel:camel-management-api:4.0.0-M3" />
+          <element id="library" level="project" name="Maven: org.apache.camel:camel-support:4.0.0-M3" />
+          <element id="library" level="project" name="Maven: org.apache.camel:camel-util-json:4.0.0-M3" />
+          <element id="library" level="project" name="Maven: org.apache.camel:camel-util:4.0.0-M3" />
+          <element id="library" level="project" name="Maven: org.apache.camel:camel-core-languages:4.0.0-M3" />
+          <element id="library" level="project" name="Maven: org.apache.camel:camel-core-model:4.0.0-M3" />
+          <element id="library" level="project" name="Maven: org.apache.camel:camel-bean:4.0.0-M3" />
+          <element id="library" level="project" name="Maven: org.apache.camel:camel-browse:4.0.0-M3" />
+          <element id="library" level="project" name="Maven: org.apache.camel:camel-cluster:4.0.0-M3" />
+          <element id="library" level="project" name="Maven: org.apache.camel:camel-controlbus:4.0.0-M3" />
+          <element id="library" level="project" name="Maven: org.apache.camel:camel-dataformat:4.0.0-M3" />
+          <element id="library" level="project" name="Maven: org.apache.camel:camel-dataset:4.0.0-M3" />
+          <element id="library" level="project" name="Maven: org.apache.camel:camel-direct:4.0.0-M3" />
+          <element id="library" level="project" name="Maven: org.apache.camel:camel-file:4.0.0-M3" />
+          <element id="library" level="project" name="Maven: org.apache.camel:camel-health:4.0.0-M3" />
+          <element id="library" level="project" name="Maven: org.apache.camel:camel-language:4.0.0-M3" />
+          <element id="library" level="project" name="Maven: org.apache.camel:camel-log:4.0.0-M3" />
+          <element id="library" level="project" name="Maven: org.apache.camel:camel-mock:4.0.0-M3" />
+          <element id="library" level="project" name="Maven: org.apache.camel:camel-ref:4.0.0-M3" />
+          <element id="library" level="project" name="Maven: org.apache.camel:camel-rest:4.0.0-M3" />
+          <element id="library" level="project" name="Maven: org.apache.camel:camel-tooling-model:4.0.0-M3" />
+          <element id="library" level="project" name="Maven: org.apache.camel:camel-saga:4.0.0-M3" />
+          <element id="library" level="project" name="Maven: org.apache.camel:camel-scheduler:4.0.0-M3" />
+          <element id="library" level="project" name="Maven: org.apache.camel:camel-seda:4.0.0-M3" />
+          <element id="library" level="project" name="Maven: org.apache.camel:camel-stub:4.0.0-M3" />
+          <element id="library" level="project" name="Maven: org.apache.camel:camel-timer:4.0.0-M3" />
+          <element id="library" level="project" name="Maven: org.apache.camel:camel-validator:4.0.0-M3" />
+          <element id="library" level="project" name="Maven: org.apache.camel:camel-xpath:4.0.0-M3" />
+          <element id="library" level="project" name="Maven: org.apache.camel:camel-xslt:4.0.0-M3" />
+          <element id="library" level="project" name="Maven: org.apache.camel:camel-xml-io:4.0.0-M3" />
+          <element id="library" level="project" name="Maven: org.apache.camel:camel-xml-io-util:4.0.0-M3" />
+          <element id="library" level="project" name="Maven: org.apache.camel:camel-xml-jaxb:4.0.0-M3" />
+          <element id="library" level="project" name="Maven: jakarta.xml.bind:jakarta.xml.bind-api:4.0.0" />
+          <element id="library" level="project" name="Maven: jakarta.activation:jakarta.activation-api:2.1.0" />
+          <element id="library" level="project" name="Maven: com.sun.xml.bind:jaxb-core:4.0.1" />
+          <element id="library" level="project" name="Maven: org.eclipse.angus:angus-activation:1.0.0" />
+          <element id="library" level="project" name="Maven: com.sun.xml.bind:jaxb-impl:4.0.1" />
+          <element id="library" level="project" name="Maven: org.apache.camel:camel-xml-jaxp:4.0.0-M3" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:2.0.6" />
+          <element id="library" level="project" name="Maven: org.apache.camel:camel-spring-xml:4.0.0-M3" />
+          <element id="library" level="project" name="Maven: org.apache.camel:camel-spring:4.0.0-M3" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-tx:6.0.8" />
+          <element id="library" level="project" name="Maven: org.apache.camel:camel-core-xml:4.0.0-M3" />
+          <element id="library" level="project" name="Maven: jakarta.annotation:jakarta.annotation-api:2.1.1" />
+          <element id="library" level="project" name="Maven: org.apache.camel:camel-spring-main:4.0.0-M3" />
+          <element id="library" level="project" name="Maven: org.apache.camel:camel-main:4.0.0-M3" />
+          <element id="library" level="project" name="Maven: org.apache.camel:camel-base:4.0.0-M3" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:5.3.23" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.3.23" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.3.23" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:5.3.23" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.3.23" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.3.23" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-slf4j2-impl:2.19.0" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-api:2.19.0" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-core:2.19.0" />
+          <element id="library" level="project" name="Maven: org.apache.camel:camel-test-spring-junit5:4.0.0-M3" />
+          <element id="library" level="project" name="Maven: org.apache.camel:camel-test-junit5:4.0.0-M3" />
+          <element id="library" level="project" name="Maven: org.junit.jupiter:junit-jupiter-api:5.9.2" />
+          <element id="library" level="project" name="Maven: org.opentest4j:opentest4j:1.2.0" />
+          <element id="library" level="project" name="Maven: org.junit.platform:junit-platform-commons:1.9.2" />
+          <element id="library" level="project" name="Maven: org.apiguardian:apiguardian-api:1.1.2" />
+          <element id="library" level="project" name="Maven: org.junit.jupiter:junit-jupiter-engine:5.9.2" />
+          <element id="library" level="project" name="Maven: org.junit.platform:junit-platform-engine:1.9.2" />
+          <element id="library" level="project" name="Maven: org.junit.jupiter:junit-jupiter-params:5.9.2" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-test:6.0.2" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/SpringCourse02/MyWebProject/target/MyWebProject/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="MyWebProject/web/Web" />
+    </root>
+  </artifact>
+</component>

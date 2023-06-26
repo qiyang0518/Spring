@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+<!--集合类型的注入-->
+    <util:list id="bookList">
+        <value>三国演义</value>
+        <value>水浒传</value>
+        <value>西游记</value>
+    </util:list>
+<!--注入的使用-->
+    <bean id="book" class="collectionType.Book">
+        <property name="list" ref="bookList"></property>
+    </bean>
+</beans>
