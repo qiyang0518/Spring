@@ -6,12 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="SpringCourse05" />
-        <module name="SpringCourse04" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="SpringCourse03" target="1.5" />
+      <module name="SpringCourse04" target="17" />
+      <module name="SpringCourse05" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>
