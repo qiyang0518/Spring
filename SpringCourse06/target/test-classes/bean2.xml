@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--service和dao对象创建-->
+    <!--bean标签id内容小写-->
+    <bean id="userService" class="service.UserService">
+        <!--注入useDao对象
+        name属性:类里面的属性名称
+        reg属性:创建userDao对象bean标签id值(把外部bean注入)
+        -->
+        <!---->
+        <property name="userDao" ref="userDaoImpl">
+        </property>
+    </bean>
+    <bean id="userDaoImpl" class="dao.UserDaoImpl"></bean>
+</beans>
